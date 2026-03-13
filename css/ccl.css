@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    
+}
+
+.banner1{
+    background-image: url(../images/person-working-html-computer\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    border-bottom: 10px solid aqua;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 75px;
+   position: absolute;
+   top: 50px;
+   left: 100px;
+}
+nav img{
+    width: 75px;
+    height: 40px;
+    margin-left: 25px;
+    padding: 8px 2px;
+
+  
+}
+
+nav ul {
+    display: flex;
+   padding-left: 550px;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav button{
+    margin-right: 30px;
+}
+
+.primary-Btn{
+    background-color: aqua;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 4px;
+}
+.secondary-Btn{
+      padding: 2px 15px;
+      border-radius: 4px;
+  
+}
+.secondary-Btn::after{content:" →";}
+.cont1{
+    position: absolute;
+    top: 230px;
+    left: 900px;
+}
+.cont1 h1{
+    width: 600px;
+    font-size: 65px;
+    color: aqua;
+}
+.cont1 p {
+    margin-top: 25px;
+    width: 450px;
+    font-size: 25px;
+    color: white;
+}
+.primary-Btn1{
+    background-color: aqua;
+    padding: 5px 25px;
+    border: 0;
+    margin-right: 15px;
+    border-radius: 5px;
+
+}
+.secondary-Btn1{
+      padding: 4px 25px;
+      border: 2px solid aqua;
+      background-color: transparent;
+      color: aqua;
+      border-radius: 5px;
+    
+    
+}
+.secondary-Btn1::after{content:" →";}
+.cont1 button{
+    margin-top: 30px;
+}
+.banner2{
+    margin-top: 20px;
+    text-align: center;
+}
+.banner2 h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS';
+}
+.banner2 > p{
+width: 600px;
+font-size: 20px;
+margin-left: 450px;
+}
+.ban2-cont1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    row-gap: 75px;
+    margin-top: 25px;
+}
+.ban2-cont2 h3{
+    width: 200px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: #1CB3A1;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.ban2-cont2 p{
+    width: 350px;
+}
+.ban2-cont2{
+    text-align: left;
+    width: 400px;
+    height: 200px;
+   border-left: 2px solid #1CB3A1;
+   padding-left: 10px;
+   position: relative;
+}
+.line{
+    position: absolute;
+    width: 2px;
+    height: 50px;
+    border-left: 4px solid #1CB3A1;
+    left: -2px;
+    top: 15px;
+}
+.buttons2{
+    margin-left: 650px;
+    margin-top: 50px;
+}
+.primary-Btn2{
+    background-color:#5FEBE2;
+    padding: 5px 25px;
+    border: 0;
+    margin-right: 15px;
+    border-radius: 5px;
+
+}
+.secondary-Btn2{
+      padding: 4px 25px;
+    background-color: transparent;
+       border-radius: 5px;
+ 
+}
+.secondary-Btn2::after{content:" →";}
+.banner3{
+    background-image: linear-gradient(to right, rgba(6, 250, 233,1),rgba(0, 0, 0, 0)),
+    url(../images/teamworking-engineers-coding-advanced-ai-algorithm-startup\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+}
+
+.banner3 h1{
+    width: 600px;
+    font-size: 50px;
+    padding-top: 150px;
+    padding-left: 30px;
+}
+.banner3 p{
+    width: 400px;
+    font-size: 22px;
+    padding-left: 60px;
+    color: rgb(105, 92, 92);
+}
+.buttons3{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.primary-Btn3{
+    background-color:white;
+    padding: 5px 25px;
+    border: 0;
+    margin-right: 15px;
+    border-radius: 5px;
+
+}
+.secondary-Btn3{
+      padding: 4px 25px;
+    background-color: transparent;
+       border-radius: 5px;
+    
+    
+}
+.secondary-Btn3::after{content:" →";}
+.banner4{
+    width: 100%;
+   
+}
+.banner4 h1{
+    width: 400px;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 25px;
+    font-family:  sans-serif;
+}
+.banner4 >p{
+    width: 740px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 15px;
+}
+.banner4-cont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner4-cont2{
+    text-align: center;
+    margin-top: 20px;
+  
+}
+.banner4-cont2 h3{
+    margin-top: 20px;
+}
+.banner4-cont2 p{
+width: 300px;
+margin-top: 20px;
+}
+.banner5{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+  padding-left: 200px;
+  
+}
+.banner5 img{
+    width: 400px;
+}
+.banner5-cont1 {
+    width: 600px;
+ 
+
+}
+.banner5-cont1 h1{
+width: 450px;
+font-size: 45px;
+
+}
+.banner5-cont1 p {
+    width: 400px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.buttons4{
+    
+    margin-top: 50px;
+}
+.primary-Btn4{
+    background-color:#5FEBE2;
+    padding: 5px 25px;
+    border: 0;
+    margin-right: 15px;
+    border-radius: 5px;
+
+}
+.secondary-Btn4{
+      padding: 4px 25px;
+    background-color: transparent;
+       border-radius: 5px; 
+    
+}
+.secondary-Btn4::after{content:" →";}
+.banner6{
+    text-align: center;
+}
+.hori-line{
+
+    display: block;
+    width: 600px;
+    height: 3px;
+    background: black;
+    margin-left: 450px;
+
+
+}
+.banner6 h1{
+    padding-bottom: 10px;
+}
+.banner7{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+   padding: 25px 75px;
+      background-image: linear-gradient(to right, rgba(6, 250, 233,1),rgba(0, 0, 0, 0));
+      
+    
+}
+.banner7-cont3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding: 10px;
+}
+.banner7-cont3 img{
+    background-color: #5FEBE2;
+    padding: 5px;
+    border-radius: 50%;
+}
+.banner7-cont4{
+    font-size: 16px;
+   
+}
+
+.hori-line1{
+
+    display: block;
+    width: 500px;
+    height: 1px;
+    background: black;
+}
+.banner8{
+    margin-top: 25px;
+      width: 100%;
+    height: 500px;
+    background-image: 
+     linear-gradient(to right, rgba(39, 245, 235, 0.0), rgba(39, 245, 235, 1.0)),
+    url(../images/hand-touching-digital-screen-with-data-visualization\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+   
+}
+.banner8 h1{
+    width: 300px;
+    font-size: 50px;
+    color: white;
+    padding-bottom: 20px;
+}
+.banner8 p{
+    width: 500px;
+    font-size: 25px;
+    color: white;
+}
+.banner8-cont1{
+    position: absolute;
+    top: 70px;
+    left: 900px;
+}
+.banner9{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer ul li {
+    list-style: none;
+   
+}
+footer ul{
+    padding-top: 40px;
+}
+.footer-cont1{
+    padding-top: 30px;
+    position: relative;
+}
+.line2{
+    position: absolute;
+    width: 2px;
+    height: 20px;
+  left: -8px;
+    border-left: 4px solid #5FEBE2 ;
+    
+}
+.line2a{
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    
+
+    border-left: 4px solid #5FEBE2 ;
+    
+}
+.footer-cont2{
+    padding-top: 20px;
+}
+.footer-cont1 h3{
+    color:#5FEBE2;
+}
+.footer-cont2 h3{
+    color:#5FEBE2;
+    padding-left: 6px;
+}
+.footer-cont2 address{
+    width: 150px;
+    padding-top: 40px;
+}
+.footer-cont3{
+    margin-left: 1180px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.line3{
+    display: block;
+    width: 1400px;
+    height: 2px;
+    border: 1px solid black;
+    margin-left: 75px;
+
+}
+.footer-cont4 ul{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 20px;
+}
+.footer-cont5{
+    position: relative;
+}
+.outer{
+    position: absolute;
+  left: -10px;
+    top: -8px;
+    
+
+
+}
+.inner{
+    position: absolute;
+    left: -5px;
+    top: -3px;
+
+   
+
+}
