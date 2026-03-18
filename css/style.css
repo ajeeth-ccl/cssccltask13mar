@@ -19,6 +19,16 @@ body {
     justify-content: center;
     align-items: center;
 }
+.heading{
+    font-size: 50px;
+}
+.paragraph{
+    font-size: 24px;
+}
+.grid-center{
+    display: grid;
+    place-items: center;
+}
 
 /*header*/
 .myheader{
@@ -140,13 +150,11 @@ body {
 }
 .banner-heading {
     width: 600px;
-    font-size: 50px;
     color: aqua;
 }
 .banner-paragraph {
     margin-top: 25px;
     width: 450px;
-    font-size: 25px;
     color: white;
 }
 .bannerbuttons {
@@ -171,15 +179,8 @@ body {
     margin-top: 20px;
     text-align: center;
 }
-
-.things-wedo-heading {
-    font-size: 50px;
-   
-}
 .things-wedo-paragraph {
-width: 600px;
-font-size: 20px;
-margin-left: 450px;
+width: 700px;
 }
 
 .things-wedo-cards-container {
@@ -208,15 +209,6 @@ margin-left: 450px;
     left: -2px;
     top: 15px;
 }
-
-.things-wedo-cards-small-line {
-    position: absolute;
-    width: 2px;
-    height: 50px;
-    border-left: 4px solid #1CB3A1;
-    left: -2px;
-    top: 15px;
-}
 .things-wedo-cards-heading {
     width: 200px;
     font-size: 25px;
@@ -229,7 +221,7 @@ margin-left: 450px;
 
 .things-wedo-buttons {
     width: 300px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
  .things-wedo-explore {
@@ -251,14 +243,12 @@ margin-left: 450px;
 
 .digital-transformation-heading {
     width: 700px;
-    font-size: 50px;
     padding-top: 50px;
     padding-left: 30px;
 }
 .digital-transformation-paragraph {
     width: 520px;
-    font-size: 22px;
-    padding-left: 60px;
+     padding-left: 30px;
     color: rgb(105, 92, 92);
 }
 .digital-transformation-buttons {
@@ -281,21 +271,13 @@ margin-left: 450px;
 
 
 /* interface-experiance */
-
 .interface-experiance-heading {
-    width: 400px;
+    width: 700px;
     text-align: center;
-    margin-left: 550px;
-    margin-top: 25px;
-    font-family:  sans-serif;
- 
 }
 .interface-experiance-paragraph {
-    width: 740px;
-    font-size: 25px;
-    text-align: center;
-    margin-left: 350px;
-    margin-top: 15px;
+    width: 740px; 
+    text-align: center;  
 }
 .interface-experiance-cards {
     text-align: center;
@@ -316,16 +298,12 @@ margin-top: 20px;
 
 .intersecting-culture-heading {
 width: 600px;
-font-size: 45px;
-
 }
 .intersecting-culture-paragraph {
-    width: 400px;
-    font-size: 18px;
+    width: 600px;
     margin-top: 15px;
 }
 .intersecting-culture-buttons {
-    
     margin-top: 50px;
 }
 .intersecting-culture-explore {
@@ -395,13 +373,11 @@ font-size: 45px;
 }
 .your-search-heading {
     width: 400px;
-    font-size: 50px;
     color: white;
     padding-bottom: 20px;
 }
 .your-search-paragraph {
     width: 500px;
-    font-size: 25px;
     color: white;
 }
 .your-search-content {
